@@ -1,0 +1,16 @@
+name:                ghc-bug
+version:             0.1.0.0
+synopsis:            
+description:
+
+license:             BSD3
+category:            Development
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable hello
+  build-depends:
+    base,
+    optparse-applicative
+  main-is:
+    Main.hs

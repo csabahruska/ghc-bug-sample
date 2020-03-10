@@ -5,8 +5,6 @@ allow-newer: true
 packages:
 - '.'
 
-extra-deps:
-  - primitive-0.7.0.1
 # Turn on system GHC
 system-ghc: true
 skip-ghc-check: true
